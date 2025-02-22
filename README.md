@@ -34,7 +34,7 @@ python -m venv venv #For Windows
 ```bash
 source .venv/bin/activate #For Mac
 
-.venv/Scripts/Acticvate
+.venv/Scripts/Acticvate #For Windows
 ```
 
 ## Installation

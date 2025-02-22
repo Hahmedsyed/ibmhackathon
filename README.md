@@ -11,6 +11,7 @@ This project provides an automated way to scan and summarize the structure and c
 - **Generates summaries** of each file and directory by making requests to the IBM Watsonx text generation service.
 - **Produces** a `findings.json` file and text logs of initial summaries.
 - **Automatically creates** a final developer guide in Markdown format, combining all the summaries.
+- **Generates an AI Chatbot** that has all the given codebase as context and can answer the questions that one may have about the code.
 
 ---
 

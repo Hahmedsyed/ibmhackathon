@@ -106,6 +106,10 @@ python project_analyzer.py -targetFolder /path/to/target/folder --chatbot
 ---
 
 ## Demo Video
+
+![](./results/old_episodes/simulation.mp4)
+<video src="./project_analyzer.mp4" controls preload></video>
+
 <video width="600" controls>
   <source src="project_analyzer.mp4" type="video/mp4">
   Your browser does not support the video tag.

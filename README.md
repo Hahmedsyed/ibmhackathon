@@ -1,6 +1,6 @@
 # Project Analyzer
 
-This project provides an automated way to scan and summarize the structure and contents of any given codebase or folder. It leverages IBM Watsonx to generate textual summaries of both individual files and the overall project, resulting in a developer guide that can help new contributors quickly understand how the project is organized.
+This project provides an automated way to scan and summarize the structure and contents of any given codebase or folder. It leverages IBM Watsonx to generate textual summaries of both individual files and the overall project, resulting in a developer guide that can help new contributors quickly understand how the project is organized. [Here is a Demo Video](#demo-video).
 
 ---
 

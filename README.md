@@ -21,16 +21,43 @@ This project provides an automated way to scan and summarize the structure and c
 
 ---
 
+# Setting Up Virtual Environment and Installing Dependencies
+
+## 1. Create a Virtual Environment
+```bash
+python3 -m venv venv #For Mac
+
+python -m venv venv #For Windows
+```
+
+## 2. Activate the Virtual Environment
+```bash
+source .venv/bin/activate #For Mac
+
+.venv/Scripts/Acticvate
+```
+
 ## Installation
 
-1. **Clone or download** this repository.
-2. **Install dependencies** by running:
+1. **Clone or download** this repository:
+
+    ```bash
+    git clone https://github.com/Hahmedsyed/ibmhackathon.git
+    ```
+
+2. **Move into the Project Directory:
+
+     ```bash
+    cd ibmhackathon
+    ```
+
+3. **Install dependencies** by running:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-    This includes packages such as `requests`, `python-dotenv`, etc., which the script depends on.
+    This includes packages such as `requests`, `python-dotenv`, `gradio`, etc., which the script depends on.
 
 ---
 
@@ -50,7 +77,7 @@ MODEL_ID=ibm/granite-3-8b-instruct
 After setting up the environment variables in your `.env` file and installing the dependencies, you can run the analyzer script as follows:
 
 ```bash
-python project_analyzer.py -targetFolder /path/to/target/folder
+python project_analyzer.py -targetFolder /path/to/target/folder --chatbot  
 ```
 
 ## What to Expect
@@ -58,6 +85,7 @@ python project_analyzer.py -targetFolder /path/to/target/folder
 - **Initial-Summaries**: The script will create a file named `initial-summaries_<timestamp>.txt` in the same directory as the script, containing summaries of files and directories.
 - **Findings**: A `findings.json` file will be created inside a timestamped subfolder in `findings/<timestamp>/findings.json`. This JSON contains detailed results of the analysis.
 - **Developer Guide**: A markdown file `guidebook_<timestamp>.md` will be generated, combining all summaries into a single guide.
+- **Locally Hosted Chatbot**: A chatbot will be hosted locally, The model is hosted on: `http://localhost:7860/`, the user can use this to ask questions about the selected Code Repository.
 
 ---
 

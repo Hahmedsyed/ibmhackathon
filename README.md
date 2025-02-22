@@ -36,7 +36,7 @@ This project provides an automated way to scan and summarize the structure and c
 
 ## .env File Setup
 
-Create (or modify) a file named `.env` in the same directory as `project_analyzer.py` with the following contents (or equivalent values for your environment):
+Create a file named `.env` in the same directory as `project_analyzer.py` with the following contents (or equivalent values for your environment):
 
 ```env
 IBM_API_KEY=Your_IBM_Cloud_API_key

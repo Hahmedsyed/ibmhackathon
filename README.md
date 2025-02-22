@@ -21,7 +21,7 @@ This project provides an automated way to scan and summarize the structure and c
 
 ---
 
-# Setting Up Virtual Environment and Installing Dependencies
+# Setting Up Virtual Environment
 
 ## 1. Create a Virtual Environment
 ```bash

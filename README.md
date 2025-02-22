@@ -102,3 +102,8 @@ python project_analyzer.py -targetFolder /path/to/target/folder --chatbot
 - To add or remove folders from the exclusion list, modify the `EXCLUSION_LIST` in `project_analyzer.py`.
 - You can change the default text generation parameters (e.g., `max_new_tokens`) in the `generate_text` function if needed.
 - If you have a different Watsonx model or region endpoint, update the `.env` file accordingly.
+
+---
+
+## Demo Video
+[Watch the Demo Video](./project_analyzer.mp4)
